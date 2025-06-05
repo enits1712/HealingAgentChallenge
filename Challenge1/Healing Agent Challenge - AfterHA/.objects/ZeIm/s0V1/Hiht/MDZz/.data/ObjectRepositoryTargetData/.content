@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8mmL5gNrfEu2Ieb0HdxMOg" Reference="bYekoVefcUexQpAPBqL6Ew/MDZzaaANm0e630glflnSSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/new" DesignTimeRectangle="1198, 646, 365, 47" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/oneRecordActionWrapper/oneRecordActionFlexipageWrapper/auraIf/auraIf/recordsLwcDetailPanelWrapper/auraIf/recordsModalLwcDetailPanelWrapper' tag='RECORDS-MODAL-LWC-DETAIL-PANEL-WRAPPER' /&gt;&lt;webctrl aaname='*Details' class='slds-input' tag='INPUT' type='text' /&gt;" Guid="255d8c09-1218-4bf9-8709-c79d251c3bdb" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='New Account | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1019, 646, 84, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/oneRecordActionWrapper/oneRecordActionFlexipageWrapper/auraIf/auraIf/recordsLwcDetailPanelWrapper/auraIf/recordsModalLwcDetailPanelWrapper' tag='RECORDS-MODAL-LWC-DETAIL-PANEL-WRAPPER' /&gt;&lt;webctrl aaname='Details' tag='LABEL' type='' class='slds-form-element__label slds-no-flex' check:innerText='*Details' /&gt;" Guid="8b48d52b-5bc3-4321-b4a1-6fa5ffcfe5ef" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="40a5f642ee597ff42ff49eacba80dc2b.png" xmlns="">0LZMuTz7xWkKSsKL3lIGIvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

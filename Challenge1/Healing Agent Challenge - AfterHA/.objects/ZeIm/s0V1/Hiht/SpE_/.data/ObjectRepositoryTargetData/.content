@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GU3z7v4gL0OPEwGMCtXI3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/new" DesignTimeRectangle="1202, 948, 106, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/oneRecordActionWrapper/oneRecordActionFlexipageWrapper/auraIf/auraIf/recordsLwcDetailPanelWrapper/auraIf/recordsModalLwcDetailPanelWrapper' tag='RECORDS-MODAL-LWC-DETAIL-PANEL-WRAPPER' /&gt;&lt;webctrl aaname='Cancel' tag='BUTTON' type='button' class='slds-button slds-button_neutral' check:innerText='Cancel' /&gt;" Guid="64d01a50-01d1-4f48-8b53-0c68d290d4ec" ScopeSelectorArgument="&lt;html app='msedge.exe' title='New Account | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1f621d8369af7d4be5316f01142d19cd.png" xmlns="">0vztKJJhFXEG2JnoNhdy4ZA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lyNVEv0YQkqQe0x2Joog6A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.salesforce.com" DesignTimeRectangle="287, 729, 508, 63" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='Login' tag='INPUT' type='submit' class='button r4 wide primary' aaname='Log In' check:text='Log In' /&gt;" Guid="8b78cd8a-0ba3-4ba3-a2ba-9ac7a50a1069" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4b286a1e3ca8441430340ac4c5e48815.png" xmlns="">0eNZc7ZSyg0qrm5cVRT0rYg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

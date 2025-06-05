@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hDGLS5OkWEC1kxL6LHF4DA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/list" DesignTimeRectangle="1564, 435, 70, 26" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/uiPanel/oneUserProfileCard/uiOutputURL:logout/auraHtml:link' tag='A' type='' class='profile-link-label logout uiOutputURL' aaname='Log Out' check:innerText='Log Out' /&gt;" Guid="cc6edd99-2f31-4398-b03b-4c54ca3864e5" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recently Viewed | Accounts | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f128fc50c73b877137df729e641b1f8d.png" xmlns="">0nAWbokJhSEmBxGOkOIJVDw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

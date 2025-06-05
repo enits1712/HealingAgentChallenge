@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N-lFI-5jHkK7MNyYb4UR9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/list" DesignTimeRectangle="1841, 267, 48, 45" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/oneHeader:header/oneUserProfileCardTrigger:userProfileCardTrigger/auraIf/forceSocialPhoto:profileIcon/forceEntityIcon/uiImage/auraHtml:body' tag='SPAN' type='' class='uiImage' aaname='' /&gt;" Guid="136373b1-67dd-4ec4-bda9-39fbcf211df2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recently Viewed | Accounts | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="225, 343, 122, 38" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/oneAppNavContainer:appnav/auraIf/oneAppnav:oneAppNav' tag='ONE-APPNAV' /&gt;&lt;webctrl tag='SPAN' type='' class='slds-truncate' aaname='Accounts' check:innerText='Accounts' /&gt;" Guid="fdc30af8-273f-40af-b07a-31299fcb079f" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="052e655ab8185abb4140c66733a8fd5b.png" xmlns="">0W3iHoldO-k2dK3BqQs14Lw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,301 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Add_Account" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Add_Account_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Add_Account" sap:VirtualizedContainerService.HintSize="1216.6666666666665,1331.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="scg:List(x:String)" Name="list_countries" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Assign sap:VirtualizedContainerService.HintSize="486,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="scg:List(x:String)">[list_countries]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="scg:List(x:String)">[New List(Of String) From {"USD", "CAD", "MXN"}]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Recently Viewed  Accounts  Salesforce" sap:VirtualizedContainerService.HintSize="486,1191.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="db43d7f0-c037-49ec-90a4-e37707d9c050" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,949.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Navigate Accounts" sap:VirtualizedContainerService.HintSize="418,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Navigate to Accounts tab&quot;]">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Accounts'" sap:VirtualizedContainerService.HintSize="418,57.333333333333336" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db43d7f0-c037-49ec-90a4-e37707d9c050" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/list" ContentHash="B3Eiu06aCE6T5BN_l0ZOQA" DesignTimeRectangle="117, 429, 54, 54" DesignTimeScaleFactor="1.5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/runtime_sales_easyVerticalNavWrapper/runtime_sales_easyVerticalNav' tag='RUNTIME_SALES_EASY-VERTICAL-NAV' /&gt;&lt;webctrl aaname='Accounts' tag='IMG' type='' class='' /&gt;" Guid="55adb3f8-0269-452f-88c5-3f4e3cfe7a83" InformativeScreenshot="7930cfda704e3fa2e7056fb5d1479c85.png" Reference="bYekoVefcUexQpAPBqL6Ew/guXrRiXBBUGV-YQOwaI4bg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recently Viewed | Accounts | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="113, 492, 62, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/runtime_sales_easyVerticalNavWrapper/runtime_sales_easyVerticalNav' tag='RUNTIME_SALES_EASY-VERTICAL-NAV' /&gt;&lt;webctrl aaname='Accounts' tag='SPAN' type='' class='slds-var-m-top_xxx-small appItemLabel' check:innerText='Accounts' /&gt;" Guid="08045025-0e96-4052-a3ef-3570d101513a" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New'" sap:VirtualizedContainerService.HintSize="418,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db43d7f0-c037-49ec-90a4-e37707d9c050" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/list" ContentHash="vKWF00RZo0Sqc5aC74Gz9w" DesignTimeRectangle="1528, 430, 39, 45" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzyAccuracy="0.77" FuzzySelectorArgument="&lt;webctrl sfl-path='forceActionLink/auraHtml:linkLabel' tag='DIV' type='' class='' check:text='New' /&gt;" Guid="a697ed62-97c6-48e5-a64f-f82b6915e84b" ImageBase64="" InformativeScreenshot="51b94cbf45a1c06da916bd3d04577318.png" Reference="bYekoVefcUexQpAPBqL6Ew/EHG-tFzTNUO3JGmsyLh1vQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recently Viewed | Accounts | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="310, 449, 309, 73" ElementType="Text" FuzzyAccuracy="0.78" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/navexSplitViewWrapper:splitViewWrapper/lafPageHost:pageHost/runtime_sales_easyObjectHomeDesktop/auraIf/oneConsoleObjectHome:objectHome/auraIf/auraIf/forceListViewManager:listViewManager/auraIf/auraIf/auraIf/forceListViewManagerHeader:header/forceListViewPicker:listViewPicker/uiOutputText:triggerLinkText/auraHtml:span' tag='SPAN' type='' class='triggerLinkText selectedListView slds-page-header__title slds-truncate slds-p-right--xx-small lst-temp-slds-lineHeight uiOutputText' aaname='Recently Viewed' check:innerText='Recently Viewed' /&gt;" Guid="015c4d41-be23-40b7-ad65-f67e89dc79fc" ImageBase64="" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Label 'Label 'New Account''" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/new" ContentHash="oxr9Sv573Ea_b-mUCT3SzQ" DesignTimeRectangle="387, 282, 1215, 38" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/oneRecordActionWrapper/oneRecordActionFlexipageWrapper/auraIf/auraIf/recordsLwcDetailPanelWrapper/auraIf/recordsModalLwcDetailPanelWrapper' tag='RECORDS-MODAL-LWC-DETAIL-PANEL-WRAPPER' /&gt;&lt;webctrl tag='H2' type='' class='slds-modal__title slds-hyphenate slds-text-heading--medium' aaname='New Account' check:innerText='New Account' /&gt;" Guid="e36dc83d-5b22-4dfd-b3eb-6e871beacc37" InformativeScreenshot="c1a46a8726e9933148893fa6c8d64095.png" Reference="bYekoVefcUexQpAPBqL6Ew/r3GeEZ_QfUW-ulpc1jG-Bw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='New Account | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each country" sap:VirtualizedContainerService.HintSize="418,545.3333333333334" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[list_countries]">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="x:String">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:String" Name="country" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,420" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '*Account Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="db43d7f0-c037-49ec-90a4-e37707d9c050" Text="[country]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/new" ContentHash="cKFMDzR2nEuUfSLzBJO5tw" DesignTimeRectangle="605, 498, 366, 47" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/oneRecordActionWrapper/oneRecordActionFlexipageWrapper/auraIf/auraIf/recordsLwcDetailPanelWrapper/auraIf/recordsModalLwcDetailPanelWrapper' tag='RECORDS-MODAL-LWC-DETAIL-PANEL-WRAPPER' /&gt;&lt;webctrl aaname='*Account Name' class='slds-input' tag='INPUT' type='text' /&gt;" Guid="5be8e064-8002-4457-bc32-2ab111ace90b" InformativeScreenshot="b73ac3695b5225232357190f3404f545.png" Reference="bYekoVefcUexQpAPBqL6Ew/6bCAEoKdAUud8sSRGWdEGA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='New Account | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="426, 498, 149, 65" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/oneRecordActionWrapper/oneRecordActionFlexipageWrapper/auraIf/auraIf/recordsLwcDetailPanelWrapper/auraIf/recordsModalLwcDetailPanelWrapper' tag='RECORDS-MODAL-LWC-DETAIL-PANEL-WRAPPER' /&gt;&lt;webctrl aaname='Account Name' tag='LABEL' type='' class='slds-form-element__label slds-no-flex' check:innerText='*Account Name' /&gt;" Guid="c81e693d-b545-4b6b-8642-cb537c2e1af5" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Details' tab" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_12" ScopeIdentifier="db43d7f0-c037-49ec-90a4-e37707d9c050" Text="[country + &quot; A/c&quot;]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable ContentHash="FRBrjPwsoUmorp_PAChmCQ" DesignTimeRectangle="1198, 804, 365, 47" FullSelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/oneRecordActionWrapper/oneRecordActionFlexipageWrapper/auraIf/auraIf/recordsLwcDetailPanelWrapper/auraIf/recordsModalLwcDetailPanelWrapper' tag='RECORDS-MODAL-LWC-DETAIL-PANEL-WRAPPER' /&gt;&lt;webctrl aaname='*Description' class='slds-input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/oneRecordActionWrapper/oneRecordActionFlexipageWrapper/auraIf/auraIf/recordsLwcDetailPanelWrapper/auraIf/recordsModalLwcDetailPanelWrapper' tag='RECORDS-MODAL-LWC-DETAIL-PANEL-WRAPPER' /&gt;&lt;webctrl aaname='*Description' class='slds-input' tag='INPUT' type='text' /&gt;" Guid="604025fc-f4e1-4f77-b08f-a6ead6a99f3d" InformativeScreenshot="351ce9f2585281ab6833467ab62d89aa.png" Reference="bYekoVefcUexQpAPBqL6Ew/Iqgat0QZekGGvkniqmnelw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='New Account | Salesforce' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" WaitForReadyArgument="None">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1019, 804, 124, 36" FullSelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/oneRecordActionWrapper/oneRecordActionFlexipageWrapper/auraIf/auraIf/recordsLwcDetailPanelWrapper/auraIf/recordsModalLwcDetailPanelWrapper' tag='RECORDS-MODAL-LWC-DETAIL-PANEL-WRAPPER' /&gt;&lt;webctrl aaname='Description' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;records-modal-lwc-detail-panel-wrapper&amp;gt;records-record-layout-event-broker&amp;gt;slot&amp;gt;records-lwc-detail-panel&amp;gt;records-base-record-form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;records-lwc-record-layout&amp;gt;forcegenerated-detailpanel_account___012000000000000aaa___full___create___recordlayout2&amp;gt;records-record-layout-block&amp;gt;slot&amp;gt;records-record-layout-section&amp;gt;div&amp;gt;div&amp;gt;dl&amp;gt;slot&amp;gt;records-record-layout-row&amp;gt;slot&amp;gt;records-record-layout-item&amp;gt;div&amp;gt;span&amp;gt;slot&amp;gt;records-record-layout-base-input&amp;gt;lightning-input&amp;gt;lightning-primitive-input-simple&amp;gt;div&amp;gt;label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/oneRecordActionWrapper/oneRecordActionFlexipageWrapper/auraIf/auraIf/recordsLwcDetailPanelWrapper/auraIf/recordsModalLwcDetailPanelWrapper' tag='RECORDS-MODAL-LWC-DETAIL-PANEL-WRAPPER' /&gt;&lt;webctrl aaname='Description' type='' tag='LABEL' class='slds-form-element__label slds-no-flex' check:text='*Description' /&gt;" Guid="27ec3966-0ebc-4a2e-bc81-ad6ed9bdbf94" SearchSteps="Selector, FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db43d7f0-c037-49ec-90a4-e37707d9c050" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/new" ContentHash="GrxnT4IqG0i_fRBZGK0HPg" DesignTimeRectangle="1320, 948, 155, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/oneRecordActionWrapper/oneRecordActionFlexipageWrapper/auraIf/auraIf/recordsLwcDetailPanelWrapper/auraIf/recordsModalLwcDetailPanelWrapper' tag='RECORDS-MODAL-LWC-DETAIL-PANEL-WRAPPER' /&gt;&lt;webctrl aaname='Save &amp;amp; New' tag='BUTTON' type='button' class='slds-button slds-button_neutral' check:innerText='Save &amp;amp; New' /&gt;" Guid="23dd5b35-f31c-4d9f-847a-9cb37785f8c9" InformativeScreenshot="2e8ac7207efc00470b96bf748a1ec7f2.png" Reference="bYekoVefcUexQpAPBqL6Ew/G-Z28ESNYkiCw2NR_-agmQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='New Account | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="Icon 'Account'" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Target>
+                            <uix:TargetAnchorable BrowserURL="momentum-ability-2447.lightning.force.com/lightning/r/Account/001Wd0000094tX6IAI/view" ContentHash="iPYBlCYiOkG8e8163-gMPQ" DesignTimeRectangle="243, 440, 48, 48" DesignTimeScaleFactor="1.5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='IMG' type='' class='' aaname='' /&gt;" Guid="68437ec2-a341-45c7-b33d-52311288d043" InformativeScreenshot="492d7e1dc24115dbd60c7332b4d5f922.png" Reference="bYekoVefcUexQpAPBqL6Ew/saX7TtWiIkCTav7AH_e_OQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Us-2 | Account | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="309, 424, 71, 26" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/lafSinglePaneWindowManager:contentManager/lafPageHost/oneRecordHomeFlexipage2Wrapper/oneRecordHomeFlexipage2:recordHomeFlexipage2' tag='ONE-RECORD-HOME-FLEXIPAGE2' /&gt;&lt;webctrl tag='RECORDS-ENTITY-LABEL' type='' class='' aaname='Account' check:innerText='Account' /&gt;" Guid="6a5ad831-6453-44bf-bd0f-c3b3f5d93b23" SearchSteps="FuzzySelector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:VerifyExecutionOptions.Target>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEach.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:ForEach>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1150" BrowserType="Edge" ContentHash="J2OgO4H3wEW-e-U0uxPybw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJNSURBVFhH7ZY/aBRBFMY/kRAOCUEkSBAREREJIhZiIUHESiysrC3EwkKCiIiIiIVYBisL98MqSEoREbEQEREREbGS94mVWKWwEBGLkzc7l9zNTjYXcnvXpPg1O292vnnz/qHdbm8ZJUg/DJtNAasKAG0rqG2gtoOaBNXyb6ndRqkIAOUHT4J2GNR5UHdA3QbtHKhDvtZrpz2g9oHaDdoECq1LZI+A8ta2F9QVUF9BtVewf6C+gJoDtR/UUVDXQD0D9QnUE1CXQR1xz6UHrUYiQDtBPeg9uMISaK9Bfc6sOe9BnY3PNwFqOuLeqnhnWQCo8dLN9ifz0/XiAi+AugRqHrT56LnZ8pIrsdQtwIPtaeZng8RA3QV1oOONbgHu/qXMpiZ45MGbE/A7Y9wUN0CNdQvYEaM5NWyGIjzHdBAQi46n1tuKYbOciQKC+++D+pUxapKrKCuaebr8zRg0zZwLGAf1MbM4DE64gBaKkdz+OwpNAbRWZnEYXA9pGJ/gR8agQeyxd8+QAEFFmQEZw0Fj30DdAzXTadudNJwB9a66YYMU5r1lAbSHoG6COh1TvrcZxeHiOGgLA+sHRWhss6B5gfMZwyttXTsO1dAnm1NxEnLFHyo/rvIT1AtQr+KM8AbULVA+UbXSA1PyI1nh85+mYk9faz7wgDoG6mA81J8ze9scFQGJGJ9k/DbVLClrx/NQTKixdG+/1Aso3Bvmg8rJcrLRyxisi6Auxga2ppvrqBWwbFSmqrt1FwqffkMk+8zXl5vr6EtAk2wKGLmA/3gNTn9qqGsgAAAAAElFTkSuQmCC" InformativeScreenshot="6048ed3e9e1f92f3722e755bab9d0242.jpg" Reference="bYekoVefcUexQpAPBqL6Ew/HihtakXgB0qlAV4b_GNjmQ" Selector="&lt;html app='msedge.exe' title='Recently Viewed | Accounts | Salesforce' /&gt;" Title="Recently Viewed | Accounts | Salesforce" Url="https://momentum-ability-2447.lightning.force.com/lightning/o/Account/list?filterName=Recent" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Dt_vQjPI60GGOqzCLhQJXw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.salesforce.com" DesignTimeRectangle="287, 642, 508, 63" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='input r4 wide mb16 mt8 password' aaname='Password' /&gt;" Guid="29561b68-07a9-42ed-8d09-acbaf2279baf" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="287, 607, 78, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='login_form' tag='LABEL' type='' class='label' aaname='Password' check:innerText='Password' /&gt;" Guid="ba70abb8-a04c-4cf2-bede-e3f290d1ac62" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="34608d3586ebcd667f5318ea4ab6aff6.png" xmlns="">0mC1Bsjb2hUuh_e4tJjCykw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

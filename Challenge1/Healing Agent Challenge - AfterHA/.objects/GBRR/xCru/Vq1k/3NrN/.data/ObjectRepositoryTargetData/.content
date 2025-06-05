@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CHSD6pycG0apP9VYRzyBSw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/list" DesignTimeRectangle="84, 198, 117, 1025" DesignTimeScaleFactor="1.5" ElementType="List" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/runtime_sales_easyVerticalNavWrapper/runtime_sales_easyVerticalNav' tag='RUNTIME_SALES_EASY-VERTICAL-NAV' /&gt;&lt;webctrl tag='UL' type='' class='verticalNavMenuList slds-text-align_center slds-text-color_inverse slds-var-m-top_medium' aaname='' /&gt;" Guid="9a52909d-ac88-4a67-9db9-8c100b32c4f6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recently Viewed | Accounts | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bf9c5b4bc4866e1e3d623160989af490.png" xmlns="">0vpHXSaxAiE-UbZbMSaBlzw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

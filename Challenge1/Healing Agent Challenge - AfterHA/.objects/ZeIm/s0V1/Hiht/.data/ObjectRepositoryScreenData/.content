@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="J2OgO4H3wEW-e-U0uxPybw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-11, -11, 1942, 1150" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJNSURBVFhH7ZY/aBRBFMY/kRAOCUEkSBAREREJIhZiIUHESiysrC3EwkKCiIiIiIVYBisL98MqSEoREbEQEREREbGS94mVWKWwEBGLkzc7l9zNTjYXcnvXpPg1O292vnnz/qHdbm8ZJUg/DJtNAasKAG0rqG2gtoOaBNXyb6ndRqkIAOUHT4J2GNR5UHdA3QbtHKhDvtZrpz2g9oHaDdoECq1LZI+A8ta2F9QVUF9BtVewf6C+gJoDtR/UUVDXQD0D9QnUE1CXQR1xz6UHrUYiQDtBPeg9uMISaK9Bfc6sOe9BnY3PNwFqOuLeqnhnWQCo8dLN9ifz0/XiAi+AugRqHrT56LnZ8pIrsdQtwIPtaeZng8RA3QV1oOONbgHu/qXMpiZ45MGbE/A7Y9wUN0CNdQvYEaM5NWyGIjzHdBAQi46n1tuKYbOciQKC+++D+pUxapKrKCuaebr8zRg0zZwLGAf1MbM4DE64gBaKkdz+OwpNAbRWZnEYXA9pGJ/gR8agQeyxd8+QAEFFmQEZw0Fj30DdAzXTadudNJwB9a66YYMU5r1lAbSHoG6COh1TvrcZxeHiOGgLA+sHRWhss6B5gfMZwyttXTsO1dAnm1NxEnLFHyo/rvIT1AtQr+KM8AbULVA+UbXSA1PyI1nh85+mYk9faz7wgDoG6mA81J8ze9scFQGJGJ9k/DbVLClrx/NQTKixdG+/1Aso3Bvmg8rJcrLRyxisi6Auxga2ppvrqBWwbFSmqrt1FwqffkMk+8zXl5vr6EtAk2wKGLmA/3gNTn9qqGsgAAAAAElFTkSuQmCC" Selector="&lt;html app='msedge.exe' title='Recently Viewed | Accounts | Salesforce' /&gt;" Title="Recently Viewed | Accounts | Salesforce" Url="https://momentum-ability-2447.lightning.force.com/lightning/o/Account/list?filterName=Recent" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="6048ed3e9e1f92f3722e755bab9d0242.jpg" xmlns="">0s24ppchJp0S3JQlIbsxlmw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

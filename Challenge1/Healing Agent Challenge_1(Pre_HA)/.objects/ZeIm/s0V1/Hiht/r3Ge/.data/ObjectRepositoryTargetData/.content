@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oxr9Sv573Ea_b-mUCT3SzQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/new" DesignTimeRectangle="387, 282, 1215, 38" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/forceModal/lafPageHost/oneRecordActionWrapper/oneRecordActionFlexipageWrapper/auraIf/auraIf/recordsLwcDetailPanelWrapper/auraIf/recordsModalLwcDetailPanelWrapper' tag='RECORDS-MODAL-LWC-DETAIL-PANEL-WRAPPER' /&gt;&lt;webctrl tag='H2' type='' class='slds-modal__title slds-hyphenate slds-text-heading--medium' aaname='New Account' check:innerText='New Account' /&gt;" Guid="e36dc83d-5b22-4dfd-b3eb-6e871beacc37" ScopeSelectorArgument="&lt;html app='msedge.exe' title='New Account | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c1a46a8726e9933148893fa6c8d64095.png" xmlns="">0J7BdjQEUTESo-Nh_1-ivvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

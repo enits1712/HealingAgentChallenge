@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vKWF00RZo0Sqc5aC74Gz9w" Reference="bYekoVefcUexQpAPBqL6Ew/EHG-tFzTNUO3JGmsyLh1vQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/list" DesignTimeRectangle="1528, 430, 39, 45" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzyAccuracy="0.77" FuzzySelectorArgument="&lt;webctrl sfl-path='forceActionLink/auraHtml:linkLabel' tag='DIV' type='' class='' check:text='New' /&gt;" Guid="a697ed62-97c6-48e5-a64f-f82b6915e84b" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recently Viewed | Accounts | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="310, 449, 309, 73" ElementType="Text" FuzzyAccuracy="0.78" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/navexSplitViewWrapper:splitViewWrapper/lafPageHost:pageHost/runtime_sales_easyObjectHomeDesktop/auraIf/oneConsoleObjectHome:objectHome/auraIf/auraIf/forceListViewManager:listViewManager/auraIf/auraIf/auraIf/forceListViewManagerHeader:header/forceListViewPicker:listViewPicker/uiOutputText:triggerLinkText/auraHtml:span' tag='SPAN' type='' class='triggerLinkText selectedListView slds-page-header__title slds-truncate slds-p-right--xx-small lst-temp-slds-lineHeight uiOutputText' aaname='Recently Viewed' check:innerText='Recently Viewed' /&gt;" Guid="015c4d41-be23-40b7-ad65-f67e89dc79fc" ImageBase64="" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="51b94cbf45a1c06da916bd3d04577318.png" xmlns="">0Ks1DzQMDCUeSrH6PR9QtZw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

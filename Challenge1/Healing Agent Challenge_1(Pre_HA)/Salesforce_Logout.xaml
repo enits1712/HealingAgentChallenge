@@ -1,0 +1,156 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Salesforce_Logout" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Salesforce_Logout_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Salesforce_Logout" sap:VirtualizedContainerService.HintSize="938.6666666666666,1132.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Logout Started" sap:VirtualizedContainerService.HintSize="484,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Salesforce Logout Sequence started&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Recently Viewed  Accounts  Salesforce" sap:VirtualizedContainerService.HintSize="484,766" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="daa356d0-5763-44bd-85db-ff877c8c3021" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,514.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Accounts'" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="daa356d0-5763-44bd-85db-ff877c8c3021" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/list" ContentHash="N-lFI-5jHkK7MNyYb4UR9w" DesignTimeRectangle="1841, 267, 48, 45" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/oneHeader:header/oneUserProfileCardTrigger:userProfileCardTrigger/auraIf/forceSocialPhoto:profileIcon/forceEntityIcon/uiImage/auraHtml:body' tag='SPAN' type='' class='uiImage' aaname='' /&gt;" Guid="136373b1-67dd-4ec4-bda9-39fbcf211df2" InformativeScreenshot="052e655ab8185abb4140c66733a8fd5b.png" Reference="bYekoVefcUexQpAPBqL6Ew/8cHuP6y-Lk2obuEsDtsiQA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recently Viewed | Accounts | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="225, 343, 122, 38" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/navexContentRegionNavContainer:contentRegionNavContainer/navexStandardManager/oneAppNavContainer:appnav/auraIf/oneAppnav:oneAppNav' tag='ONE-APPNAV' /&gt;&lt;webctrl tag='SPAN' type='' class='slds-truncate' aaname='Accounts' check:innerText='Accounts' /&gt;" Guid="fdc30af8-273f-40af-b07a-31299fcb079f" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Label 'Label 'Log Out''" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/list" ContentHash="hDGLS5OkWEC1kxL6LHF4DA" DesignTimeRectangle="1564, 435, 70, 26" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/uiPanel/oneUserProfileCard/uiOutputURL:logout/auraHtml:link' tag='A' type='' class='profile-link-label logout uiOutputURL' aaname='Log Out' check:innerText='Log Out' /&gt;" Guid="cc6edd99-2f31-4398-b03b-4c54ca3864e5" InformativeScreenshot="f128fc50c73b877137df729e641b1f8d.png" Reference="bYekoVefcUexQpAPBqL6Ew/wyp8OUW7REy4hoF6Pv24Pg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recently Viewed | Accounts | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log Out'" sap:VirtualizedContainerService.HintSize="416,222.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="daa356d0-5763-44bd-85db-ff877c8c3021" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="momentum-ability-2447.lightning.force.com/lightning/o/Account/list" ContentHash="UZNwU4YJZUW4YNrDoyLc5A" DesignTimeRectangle="1564, 435, 70, 26" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/uiPanel/oneUserProfileCard/uiOutputURL:logout/auraHtml:link' tag='A' /&gt;" Guid="968e7548-0c37-497a-af91-bdf0ae1a6f2a" ImageBase64="" InformativeScreenshot="85d2d026b6bb72e67a5b68c306d1d114.png" Reference="bYekoVefcUexQpAPBqL6Ew/18NEZFxCT0mqRikEmJvwUQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Recently Viewed | Accounts | Salesforce' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1471, 365, 182, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl sfl-path='uiPanelManager2/uiPanel/oneUserProfileCard/auraHtml:userName' tag='A' type='' class='profile-link-label' aaname='Anikesh Srivastav' check:innerText='Anikesh Srivastav' /&gt;" Guid="d563b6ab-14da-4e39-b367-509d4d2700d0" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Element 'Element 'Salesforce0 Saved Usern…''" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="momentum-ability-2447.my.salesforce.com" ContentHash="B06WvkM030imApm2gztNqw" DesignTimeRectangle="87, 188, 919, 871" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl id='main' tag='DIV' type='' class='' aaname='' check:innerText='Salesforce&amp;#xA;Username&amp;#xA;Password&amp;#xA;Remember me&amp;#xA;&amp;#xA;&amp;#xA;Forgot Your Password?' /&gt;" Guid="149b9692-461f-437f-95c1-d8dcc64237e0" InformativeScreenshot="1697d91318b7083846e1ca7f656c637d.png" Reference="bYekoVefcUexQpAPBqL6Ew/HTgT4odroUC7Pf-b5XU_2Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1150" BrowserType="Edge" ContentHash="J2OgO4H3wEW-e-U0uxPybw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJNSURBVFhH7ZY/aBRBFMY/kRAOCUEkSBAREREJIhZiIUHESiysrC3EwkKCiIiIiIVYBisL98MqSEoREbEQEREREbGS94mVWKWwEBGLkzc7l9zNTjYXcnvXpPg1O292vnnz/qHdbm8ZJUg/DJtNAasKAG0rqG2gtoOaBNXyb6ndRqkIAOUHT4J2GNR5UHdA3QbtHKhDvtZrpz2g9oHaDdoECq1LZI+A8ta2F9QVUF9BtVewf6C+gJoDtR/UUVDXQD0D9QnUE1CXQR1xz6UHrUYiQDtBPeg9uMISaK9Bfc6sOe9BnY3PNwFqOuLeqnhnWQCo8dLN9ifz0/XiAi+AugRqHrT56LnZ8pIrsdQtwIPtaeZng8RA3QV1oOONbgHu/qXMpiZ45MGbE/A7Y9wUN0CNdQvYEaM5NWyGIjzHdBAQi46n1tuKYbOciQKC+++D+pUxapKrKCuaebr8zRg0zZwLGAf1MbM4DE64gBaKkdz+OwpNAbRWZnEYXA9pGJ/gR8agQeyxd8+QAEFFmQEZw0Fj30DdAzXTadudNJwB9a66YYMU5r1lAbSHoG6COh1TvrcZxeHiOGgLA+sHRWhss6B5gfMZwyttXTsO1dAnm1NxEnLFHyo/rvIT1AtQr+KM8AbULVA+UbXSA1PyI1nh85+mYk9faz7wgDoG6mA81J8ze9scFQGJGJ9k/DbVLClrx/NQTKixdG+/1Aso3Bvmg8rJcrLRyxisi6Auxga2ppvrqBWwbFSmqrt1FwqffkMk+8zXl5vr6EtAk2wKGLmA/3gNTn9qqGsgAAAAAElFTkSuQmCC" InformativeScreenshot="6048ed3e9e1f92f3722e755bab9d0242.jpg" Reference="bYekoVefcUexQpAPBqL6Ew/HihtakXgB0qlAV4b_GNjmQ" Selector="&lt;html app='msedge.exe' title='Recently Viewed | Accounts | Salesforce' /&gt;" Title="Recently Viewed | Accounts | Salesforce" Url="https://momentum-ability-2447.lightning.force.com/lightning/o/Account/list?filterName=Recent" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Logout Ended" sap:VirtualizedContainerService.HintSize="484,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Salesforce Logout Sequence ended&quot;]" />
+  </Sequence>
+</Activity>

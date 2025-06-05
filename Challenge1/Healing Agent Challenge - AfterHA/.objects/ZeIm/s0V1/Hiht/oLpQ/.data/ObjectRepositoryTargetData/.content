@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OdCboaUk5ESbFERjKR_HSA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="momentum-ability-2447.lightning.force.com/lightning/r/Account/001Wd0000095VIvIAM/view" DesignTimeRectangle="1818, 200, 48, 45" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl sfl-path='oneOne/lafAppLayoutHost:host/navexDesktopLayoutContainer/oneHeader:header/oneUserProfileCardTrigger:userProfileCardTrigger/auraIf/forceSocialPhoto:profileIcon/forceEntityIcon/uiImage/auraHtml:body' tag='SPAN' type='' class='uiImage' aaname='' /&gt;" Guid="cd41b54e-b652-4f36-8603-4c4cf40c058d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='q3 | Account | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="41878d2a2c628b2a7ae9131064052d98.png" xmlns="">0bg3Z4hZoi0618UzUx35bQg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

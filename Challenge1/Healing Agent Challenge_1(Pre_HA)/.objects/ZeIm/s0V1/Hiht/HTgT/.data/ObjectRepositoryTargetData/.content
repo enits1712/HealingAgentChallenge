@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="B06WvkM030imApm2gztNqw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="momentum-ability-2447.my.salesforce.com" DesignTimeRectangle="87, 188, 919, 871" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl id='main' tag='DIV' type='' class='' aaname='' check:innerText='Salesforce&amp;#xA;Username&amp;#xA;Password&amp;#xA;Remember me&amp;#xA;&amp;#xA;&amp;#xA;Forgot Your Password?' /&gt;" Guid="149b9692-461f-437f-95c1-d8dcc64237e0" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Login | Salesforce' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1697d91318b7083846e1ca7f656c637d.png" xmlns="">0lDDsmDQAwkK77YtU6jLizg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
